@@ -1,5 +1,5 @@
 # Slider
 
-![alt text]("Interface.png")
+![alt text]("./Interface.png")
 
 
