@@ -1,0 +1,77 @@
+form input{
+    width: 100%;
+    font-size: 12px;
+    border: none;
+    background: #f7f4f4;
+    padding: 10px 10px;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+button{
+    background: rgba(222, 122, 35, 0.9920343137254902);
+    border: 0.5px solid rgba(222, 122, 35, 0.9920343137254902);
+    border-radius: 30px;
+    padding: 14px 30px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button.ghost{
+    background: transparent;
+    border-color: white;
+}
+
+form a{
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+.social-container a{
+    margin: 20px 5px;;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-container a{
+    border: 1px solid darkslategrey;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+h1{
+    margin: 0;
+}
+
+span{
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 10px;
+    word-spacing: 0.5px;
+    color: darkslategray;
+}
+
+p{
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 10px;
+    word-spacing: 0.5px;
+    color: white;
+    line-height: 20px;
+    word-spacing: 0.5px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}

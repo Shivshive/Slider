@@ -1,0 +1,21 @@
+
+/** Move Sign-In & Sign Up to right */
+.container.right-panel-active .sign-in-container{
+    transform: translateX(100%);
+}
+
+.container.right-panel-active .sign-up-container{
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+/** Move Overlay-Container to left **/
+.container.right-panel-active .overlay-container{
+    transform: translateX(-100%);
+}
+
+/** Move Overlay to right */
+.container.right-panel-active .overlay{
+    transform: translateX(50%);
+}
